@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* =======================
+   🎨 ESTILOS GERAIS
+   ======================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* =======================
+   🏠 CONTAINER PRINCIPAL
+   ======================= */
+.p-panel {
+    width: 60%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* =======================
+   📌 FORMULÁRIO
+   ======================= */
+h:form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h:panelGrid {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.p-panelGrid td {
+    padding: 10px;
+}
+
+.p-inputtext,
+.p-selectOneMenu {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* =======================
+   🔘 BOTÃO
+   ======================= */
+.p-commandButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.p-commandButton:hover {
+    background-color: #0056b3;
+}
+
+/* =======================
+   📋 TABELA DE PESSOAS
+   ======================= */
+.p-dataTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.p-dataTable th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.p-dataTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.p-dataTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* =======================
+   ✏️ BOTÃO EDITAR
+   ======================= */
+.p-button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.p-button:hover {
+    background-color: #218838;
+}
