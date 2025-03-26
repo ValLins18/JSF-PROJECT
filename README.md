@@ -2,10 +2,11 @@
 
 ## 📋 Pré-requisitos
 - [Eclipse IDE for Enterprise Java](https://www.eclipse.org/downloads/packages/)
-- [JDK 8](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [JDK 8](https://www.oracle.com/java/technologies/javase-downloads.html) (Uma das versões mais estáveis do java até hoje)
 - [Apache Tomcat 9.x](https://tomcat.apache.org/download-90.cgi)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- Projeto Maven configurado
+- [Docker](https://www.docker.com/products/docker-desktop) (Mais versatilidade ao instanciar um banco de dados sem precisar se preocupar com instalação prévia)
+- [Primefaces](https://www.primefaces.org/showcase/index.xhtml?jfwid=87707) (Melhor framework para JSF do mercado atualmente)
+- [Maven] (Gerenciador de pacotes para melhorar a manutenção das bibliotecas de forma concisa)
 
 ## 🔧 Parte 1: Configurar Eclipse + Tomcat
 
