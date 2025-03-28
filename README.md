@@ -56,6 +56,7 @@ volumes:
   postgres_data:
 ```
 ### Rodar o Contêiner
+Já existe hoje um docker-compose no projeto que serve para subir a instancia do banco de dados sem dores de cabeça. Basta abrir o terminal de comando na raiz do projeto e executar o seguinte comando:
 ```sh
 docker-compose up -d
 ```
@@ -129,9 +130,6 @@ kill -9 <PID>  # Linux/Mac
 ---
 
 
-
-
-Acesse: `http://localhost:8080/meu-projeto`
 
 ---
 ## ▶️ Parte 5: Rodando a Aplicação no Eclipse
